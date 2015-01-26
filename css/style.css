@@ -54,6 +54,10 @@ body {
 h3 {
   font-size: 0.5em; }
 
+/* line 42, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
+.icons {
+  padding: 0 10%; }
+
 @font-face {
   font-family: 'assignment-1';
   src: url('../font/assignment-1.eot?91471204');
@@ -61,7 +65,7 @@ h3 {
   font-weight: normal;
   font-style: normal; }
 
-/* line 53, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
+/* line 57, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: 'assignment-1';
   font-style: normal;
@@ -77,12 +81,12 @@ h3 {
   line-height: 1em;
   margin-left: 0.2em; }
 
-/* line 70, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
+/* line 74, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
 .icon-alien:before {
   content: '\e800';
   color: #257654; }
 
-/* line 75, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
+/* line 79, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
 .icon-astronaut:before {
   content: '\e801';
   color: #b6b2fb; }
