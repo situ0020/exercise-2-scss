@@ -3,6 +3,50 @@ All the files that are refixed with an underscore
 "_name-of-file.scss" are called partials - meaning that their css isn't compiled unless it's imported into an unprefixed .scss file */
 /* are placeholders for storing information that you want to reuse throughout your styles. You can store things like colors font-stacks or any other css value you might want to reuse.
 SCSS use the '$' to declare variables */
-/* line 7, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
+@-moz-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-o-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1; }
+
+@viewport {
+  width: device-width;
+  scale: 1; }
+
+/* line 9, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Bangers', cursive;
+  font-weight: 100;
+  color: white; }
+
+/* line 21, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 25, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
+body {
+  margin: 0; }
+
+/* line 29, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
 .main {
-  background: transparent url('../img/galaxy.jpg') no-repeat center top; }
+  background: transparent url('../img/galaxy.jpg') no-repeat center top;
+  text-align: center;
+  background-size: cover;
+  display: block;
+  margin: auto;
+  padding: 2em 0;
+  font-size: 3em; }
