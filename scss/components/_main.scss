@@ -1,26 +1,9 @@
 // Main
 
 body{
-	background-color: $background;
-	font-family: $helvetica;
+
 }
 
-.primary-btn{
-	@include button($primary, $primary-dark, #fff);
-}
-
-.secondary-btn{
-	@include button($secondary, #666, #fff);
-}
-
-.border{
-	border: 1px solid #ccc;
-	//you can nest element/selectors to target more specifically
-	p{
-		color: red;
-	}
-}
-
-ul{
-	@extend .border;
+.main{
+	background: $image;
 }
