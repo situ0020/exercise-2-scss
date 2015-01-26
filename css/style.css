@@ -63,7 +63,7 @@ h3 {
 
 /* line 53, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "assignment-1";
+  font-family: 'assignment-1';
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -82,10 +82,7 @@ h3 {
   content: '\e800';
   color: #257654; }
 
-/* '' */
-/* line 71, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
+/* line 75, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
 .icon-astronaut:before {
   content: '\e801';
   color: #b6b2fb; }
-
-/* '' */

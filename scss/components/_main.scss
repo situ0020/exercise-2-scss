@@ -51,7 +51,7 @@ h3 {
 }
 
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "assignment-1";
+  font-family: $icon-font;
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -67,5 +67,12 @@ h3 {
   margin-left: .2em;
 }
 
-.icon-alien:before { content: '\e800'; color: rgba(37,118,84,1.00); } /* '' */
-.icon-astronaut:before { content: '\e801'; color: rgba(182,178,251,1.00); } /* '' */
+.icon-alien:before{
+	content: $icon-alien;
+	color: $icon-alien-colour;
+}
+
+.icon-astronaut:before{
+	content: $icon-astronaut;
+	color: $icon-astronaut-colour;
+}
