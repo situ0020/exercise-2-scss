@@ -45,8 +45,11 @@ body {
 .main {
   background: transparent url('../img/galaxy.jpg') no-repeat center top;
   text-align: center;
-  background-size: cover;
   display: block;
   margin: auto;
   padding: 2em 0;
   font-size: 3em; }
+
+/* line 38, /Users/katiesitu/Desktop/web-dev/exercise-2-scss/scss/components/_main */
+h3 {
+  font-size: 0.5em; }
