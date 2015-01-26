@@ -13,9 +13,9 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-	font-family: 'Bangers', cursive;
+	font-family: $font;
 	font-weight: 100;
-	color: white;
+	color: $white;
 }
 
 *, *:before, *:after {
